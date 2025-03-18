@@ -33,7 +33,6 @@ def style_widget(widget, fg_color="#ffffff", bg_color="#2b2b2b", font=("Arial", 
         widget.config(justify=justify)
 
 
-# Function to verify login
 def login():
     if username_entry.get() == "root" and password_entry.get() == "root":
         messagebox.showinfo("Login Successful", "Welcome!")
